@@ -3,10 +3,10 @@ document.getElementById("greetButton").addEventListener("click", function () {
     let greetingMessage = document.getElementById("greetingMessage");
 
     if (name === "") {
-        greetingMessage.textContent = "Please enter your name!";
+        greetingMessage.textContent = "Please enter your Name!";
         greetingMessage.style.color = "red";
     } else {
-        greetingMessage.textContent = `Hello, ${name}!`;
-        greetingMessage.style.color = "green";
+        greetingMessage.textContent = `Have a nice Day, ${name}!`;
+        greetingMessage.style.color = "black";
     }
 });

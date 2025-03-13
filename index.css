@@ -9,8 +9,10 @@ body {
 }
 
 .container {
+    background-image: url("./img/image.jpg");
     text-align: center;
-    background: white;
+   height: 50%;
+   width: 30%;
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
@@ -18,7 +20,7 @@ body {
 
 input {
     padding: 10px;
-    margin-top: 10px;
+    margin-top: 50px;
     border: 1px solid #ccc;
     border-radius: 5px;
 }
@@ -26,8 +28,8 @@ input {
 button {
     margin-top: 10px;
     padding: 10px 20px;
-    background-color: #007BFF;
-    color: white;
+    background-color: #201a20;
+    color: rgb(230, 223, 223);
     border: none;
     border-radius: 5px;
     cursor: pointer;
@@ -42,4 +44,7 @@ button:hover {
     font-size: 18px;
     font-weight: bold;
     color: #333;
+}
+h1{
+    color: rgb(35, 5, 43);
 }
